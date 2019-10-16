@@ -17,7 +17,7 @@ namespace Api.Controllers
         {
             _db = new ApiDbContext();
         }
-
+        //http get method
         [HttpGet("{id}")]
         public IActionResult Get(int id)
         {
@@ -43,7 +43,7 @@ namespace Api.Controllers
                 user.Age
             });
         }
-
+        //http post method
         [HttpPost("login")]
         public IActionResult Login([FromBody]User user)
         {
