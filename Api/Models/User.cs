@@ -17,5 +17,6 @@ namespace Api.Models
         public string Middlename { get; set; }
         public string Lastname { get; set; }
         public int Age { get; set; }
+        public int ModifiedTime { get; set; }
     }
 }
