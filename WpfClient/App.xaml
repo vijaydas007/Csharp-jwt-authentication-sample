@@ -4,6 +4,6 @@
              xmlns:local="clr-namespace:WpfClient"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-         
+      <xml> Get Data</xml>
     </Application.Resources>
 </Application>
